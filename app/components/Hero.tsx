@@ -1,15 +1,12 @@
 'use client';
-interface Hero {
-  id: string;
-  className: string;
-}
+
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 
 import Image from 'next/image';
 import Link from 'next/link';
 import BackgroundCircles from './BackGroundCricles';
 
-export default function Hero({ id, className }: Hero) {
+export default function Hero() {
   const [text, count] = useTypewriter({
     words: ['Welcome To My Portfolio', 'I am Arsham', 'Front-End Developer'],
     loop: true,
@@ -17,8 +14,7 @@ export default function Hero({ id, className }: Hero) {
   });
   return (
     <div
-      id={id}
-      className={`${className} h-screen  flex flex-col text-center space-y-8 items-center justify-center overflow-hidden`}
+      className={` h-screen  flex flex-col text-center space-y-8 items-center justify-center overflow-hidden`}
     >
       <BackgroundCircles />
       <Image
@@ -33,7 +29,7 @@ export default function Hero({ id, className }: Hero) {
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[5px] sm:tracking-[15px]">
           Front-End Developer
         </h2>
-        <h1 className=" text-lg sm:text-3xl lg:text-6xl font-semibold px-10">
+        <h1 className=" text-lg sm:text-2xl lg:text-4xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>

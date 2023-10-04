@@ -1,3 +1,4 @@
+import About from './components/About';
 import Header from './components/Header';
 import Hero from './components/Hero';
 
@@ -10,11 +11,13 @@ export default function Home() {
   scrollbar-smooth scrollbar-track-gray-400/20 
   scrollbar-thumb-[#F7AB0A]/80"
     >
-      <section>
-        <Header />
+      <Header />
+
+      <section id="hero" className="snap-start">
+        <Hero />
       </section>
-      <section>
-        <Hero id="hero" className="snap-start" />
+      <section id="About" className="snap-center">
+        <About />
       </section>
     </div>
   );
