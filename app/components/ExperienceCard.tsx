@@ -7,8 +7,6 @@ interface ExperienceCard {
   data: WorkExperienceType;
 }
 export default function ExperienceCard({ data }: ExperienceCard) {
-  console.log(data);
-
   return (
     <article
       className="flex flex-col rounded-lg items-center 

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "html",
-      "progress": 90
+      "progress": 98
     },
     {
       "id": 2,
@@ -13,27 +13,27 @@
     {
       "id": 3,
       "name": "javascripte",
-      "progress": 70
+      "progress": 80
     },
     {
       "id": 4,
       "name": "nodejs",
-      "progress": 50
+      "progress": 70
     },
     {
       "id": 5,
       "name": "react",
-      "progress": 80
+      "progress": 90
     },
     {
       "id": 6,
       "name": "nextjs",
-      "progress": 70
+      "progress": 90
     },
     {
       "id": 7,
       "name": "typescripte",
-      "progress": 50
+      "progress": 80
     },
     {
       "id": 8,
@@ -43,32 +43,12 @@
     {
       "id": 9,
       "name": "tailwindcss",
-      "progress": 70
-    },
-    {
-      "id": 10,
-      "name": "mui",
-      "progress": 90
-    },
-    {
-      "id": 11,
-      "name": "bootstrap",
-      "progress": 80
-    },
-    {
-      "id": 12,
-      "name": "hygraph-cms",
       "progress": 90
     },
     {
       "id": 13,
       "name": "mongoDb",
       "progress": 50
-    },
-    {
-      "id": 14,
-      "name": "vscode",
-      "progress": 90
     }
   ],
   "dataExp": [

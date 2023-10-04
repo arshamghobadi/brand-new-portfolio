@@ -1,4 +1,4 @@
-export interface Skill {
+export interface SkillType {
   id: number;
   name: string;
   progress: number;
