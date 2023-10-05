@@ -14,20 +14,16 @@ export interface WorkExperienceType {
   summry: string[];
 }
 
-export interface Project {
+export interface ProjectType {
   id: number;
   title: string;
   demo: string;
   SourceCode: string;
-  description: string;
+  discription: string;
 }
 
 export interface DBDataExp {
   dataExp: WorkExperienceType[];
-}
-export interface DBDataSkill {
   data: Skill[];
-}
-export interface DBDataOroject {
   projectsData: Project[];
 }

@@ -19,7 +19,7 @@ export default function Hero() {
       <BackgroundCircles />
       <Image
         priority
-        className="relative rounded-lg p-10 sm:p-0  sm:rounded-full sm:h-32 sm:w-32 mx-auto  object-cover"
+        className="relative w-[75%] sm:p-0 rounded-md  sm:rounded-full sm:h-32 sm:w-32 mx-auto  object-cover"
         src="/hero.jpeg"
         alt="Picture of the arsham"
         width={500}
