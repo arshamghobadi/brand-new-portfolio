@@ -40,11 +40,11 @@ const Projects: React.FC<ProjectsType> = ({ projects }) => {
               // viewport={{ once: true }}
               alt={project.title}
               src={`/image/projects/${project.id}.jpg`}
-              className=" w-36 h-36 sm:w-2/6 sm:h-1/5 md:w-3/6 md:h-3/6 "
+              className=" w-36 h-36 sm:w-2/6 sm:h-1/5 md:w-3/6 md:h-3/6 object-cover"
             />
             <div className="space-y-6 px-0 md:px-10 max-w-6xl">
               <h4 className="text-2xl  text-center">{project.title}</h4>
-              <div className=" flex flex-row  justify-evenly text-[#F7AB0A]">
+              <div className=" flex flex-row space-x-4 justify-evenly text-[#F7AB0A]">
                 <Link target="_blank" href={project.demo}>
                   Demo
                 </Link>
@@ -52,9 +52,15 @@ const Projects: React.FC<ProjectsType> = ({ projects }) => {
                   SourceCode
                 </Link>
               </div>
-              <p className=" text-sm lg:text-lg text-center md:text-left line-clamp-4 hover:line-clamp-none hover:text-xs">
-                {project.discription}
-              </p>
+              <div className=" grid grid-cols-2 gap-3">
+                {project.technology.map((item, i) => (
+                  <div key={i}>
+                    <button className="bg-yellow-950 w-32  text-yellow-400 border border-yellow-400 border-b-4  overflow-hidden relative px-2 py-1 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+                      {item}
+                    </button>
+                  </div>
+                ))}
+              </div>
             </div>
             <div className="flex flex-row items-center">
               <div

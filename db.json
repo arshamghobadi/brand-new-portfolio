@@ -111,7 +111,7 @@
       "title": "Airbnb",
       "demo": "https://rent-app-mu.vercel.app",
       "SourceCode": "https://github.com/arshamghobadi/airbnb-app",
-      "discription": "rkgjkfb"
+      "technology": ["Next", "Typescripte", "Prisma", "MongoDB", "Tailwindcss"]
     },
 
     {
@@ -119,35 +119,34 @@
       "title": "crypto-currency-project",
       "demo": "https://lustrous-madeleine-5a79cd.netlify.app",
       "SourceCode": "https://github.com/arshamghobadi/cryptocurrency-project",
-      "discription": "Introducing my second project, a comprehensive cryptocurrency tracker that showcases the latest rates, prices, market caps, and volumes of all major cryptocurrencies. With an emphasis on providing up-to-date information, the tracker is an essential tool for anyone interested in the cryptocurrency market. The detailed pages offer a deep dive into each cryptocurrency, displaying its price change over the past week. Whether you're an experienced trader or just starting out, this cryptocurrency tracker has everything you need to stay informed and make informed decisions"
+      "technology": ["React", "Node", "Bootstrap"]
     },
     {
       "id": 3,
       "title": "my first protfolio webpage",
       "demo": "https://jolly-selkie-ced79b.netlify.app",
       "SourceCode": "https://github.com/arshamghobadi/portfolioweb",
-      "discription": "Introducing my latest project, a sleek and modern portfolio website built using React, Material UI, GraphQL, and the headless CMS, Hygrah. The website features a clean and intuitive design, making it easy for visitors to navigate and explore the various projects and experiences that I have to offer. With GraphQL, I was able to seamlessly connect the frontend to the CMS and provide a smooth user experience. Whether you're a potential employer, collaborator, or just interested in my work, this website offers a comprehensive overview of my skills and achievements"
+      "technology": ["React", "Node", "grapgql", "MUI"]
     },
     {
       "id": 4,
       "title": "Gym app",
       "demo": "https://gym-app-beige.vercel.app",
       "SourceCode": "https://github.com/arshamghobadi/gym-app",
-      "discription": "I'm proud to showcase a gym app web page that I created using the latest web technologies such as React, Tailwind, Motion, and Framer. This app was designed with fitness enthusiasts in mind, providing them with an intuitive and enjoyable experience that helps them achieve their fitness goals.With a clean and modern user interface, users can easily navigate the app, personalize their workouts, track their progress, and receive nutrition advice. Our app also incorporates advanced security measures to protect user data and ensure peace of mind while using it."
+      "technology": [
+        "React",
+        "Node",
+        "framer-motion",
+        "Typescripte",
+        "Tailwindcss"
+      ]
     },
     {
       "id": 5,
       "title": "Google",
       "demo": "https://google-psi-hazel.vercel.app",
       "SourceCode": "https://github.com/arshamghobadi/google",
-      "discription": "Introducing Google, the powerful search engine that helps you find exactly what you're looking for. With lightning-fast results, you can easily search for websites, images, videos, news articles, and more with just a few clicks.Our advanced algorithms ensure that your search results are accurate and relevant, and our user-friendly interface makes it easy to browse through your results and find exactly what you need. Whether you're searching for the latest news, the best deals, or simply want to explore the web, Google is the perfect tool for the job.With features like autocomplete suggestions, spelling corrections, and personalized search results, you'll never have to waste time sifting through irrelevant pages again. Plus, our advanced privacy settings keep your search history safe and secure.So why wait? Try Google today and experience the power of a search engine designed with you in mind."
-    },
-    {
-      "id": 6,
-      "title": "Nicki Shop",
-      "demo": "https://enchanting-platypus-acacab.netlify.app",
-      "SourceCode": "https://github.com/arshamghobadi",
-      "discription": "Introducing my first e-commerce website, a culmination of my year-long journey in programming. Built with modern technologies like React, Redux, and Bootstrap CSS, the website delivers a seamless shopping experience for customers. With a focus on functionality, the website offers a user-friendly interface and smooth navigation for a hassle-free shopping experience. From browsing products to making secure purchases, this website has it all."
+      "technology": ["Next", "Node", "Tailwindcss"]
     }
   ]
 }

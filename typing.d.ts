@@ -19,7 +19,7 @@ export interface ProjectType {
   title: string;
   demo: string;
   SourceCode: string;
-  discription: string;
+  technology: string[];
 }
 
 export interface DBDataExp {
