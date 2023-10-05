@@ -53,7 +53,7 @@ const Header = () => {
         />
 
         <Link href="#contact">
-          <p className="uppercase mx-3 md:inline-flex text-sm text-gray-400">
+          <p className="uppercase mx-3 md:inline-flex text-xs sm:text-sm text-gray-400">
             GET IN TOUCH
           </p>
         </Link>
