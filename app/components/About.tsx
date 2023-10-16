@@ -14,6 +14,7 @@ export default function About() {
       </h3>
       <div className="w-full flex flex-col items-center ">
         <motion.img
+          alt="Arsham About picture"
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}
           whileInView={{ x: 0, opacity: 1 }}
