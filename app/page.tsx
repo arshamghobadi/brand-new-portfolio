@@ -44,7 +44,7 @@ export default function Home() {
       </section>
       <footer className="sticky bottom-12 sm:bottom-5 z-0 ">
         <div className="flex items-center justify-center">
-          <Link href="#hero">
+          <Link aria-label="HiArrowUpCircle" href="#hero">
             <HiArrowUpCircle className=" w-14 h-14  rounded-full cursor-pointer z-20" />
           </Link>
         </div>
