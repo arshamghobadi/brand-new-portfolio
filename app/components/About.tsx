@@ -26,11 +26,11 @@ export default function About() {
         />
       </div>
       <div className="space-y-8 px-0 md:px-10 ">
-        <h4 className="text-3xl fort-semibold">
+        <h3 className="text-3xl fort-semibold">
           Here is a{' '}
           <span className="underline decoration-[#F7AB0A]/50">little</span>{' '}
           background
-        </h4>
+        </h3>
         <p className="text-sm line-clamp-4 hover:line-clamp-none">
           I embarked on my professional journey as a Junior Software and IT
           Specialist, eager to explore the dynamic world of technology. Over
