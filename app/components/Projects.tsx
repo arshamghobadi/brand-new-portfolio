@@ -37,7 +37,6 @@ const Projects: React.FC<ProjectsType> = ({ projects }) => {
               }}
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
-              // viewport={{ once: true }}
               alt={project.title}
               src={`/image/projects/${project.id}.jpg`}
               className=" w-36 h-36 sm:w-2/6 sm:h-1/5 md:w-3/6 md:h-3/6 object-cover"

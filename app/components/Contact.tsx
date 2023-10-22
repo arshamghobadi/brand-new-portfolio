@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { HiMapPin, HiEnvelope, HiPhone } from 'react-icons/hi2';
 
 function Contact() {
