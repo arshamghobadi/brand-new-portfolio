@@ -23,7 +23,7 @@ export default function Hero() {
         src="/hero.jpeg"
         alt="Picture of the arsham"
         width={500}
-        height={500}
+        height={281}
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[5px] sm:tracking-[15px]">

@@ -14,6 +14,7 @@ export default function About() {
       </h2>
       <div className="w-full flex flex-col items-center ">
         <motion.img
+          rel="preload"
           alt="Arsham About picture"
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}
