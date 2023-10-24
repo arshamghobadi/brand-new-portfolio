@@ -14,7 +14,7 @@ const Skill: React.FC<SkillDataType> = ({ data }) => {
         initial={{ x: true ? -180 : 180, opacity: 0 }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src={`/image/skill-image/${data.id}.jpg`}
+        src={`/image/skill-image/${data.id}.webp`}
         className=" rounded-md border border-gray-500 object-cover  w-14 h-14 md:w-24 md:h-24 xl:w-26 xl:h-26 filter group-hover:grayscale"
       />
       <div

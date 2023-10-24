@@ -20,7 +20,7 @@ export default function Hero() {
       <Image
         priority
         className="relative w-[75%] sm:p-0 rounded-md  sm:rounded-full sm:h-32 sm:w-32 mx-auto  object-cover"
-        src="/hero.jpeg"
+        src="/hero.webp"
         alt="Picture of the arsham"
         width={500}
         height={281}

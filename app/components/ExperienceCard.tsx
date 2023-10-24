@@ -21,7 +21,7 @@ export default function ExperienceCard({ data }: ExperienceCard) {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         className=" w-20 h-20 sm:w-28 sm:h-28 rounded-md xl:w-[200px] xl:h-[200px]  object-center"
-        src={`/image/image-exp/${data.id}.jpg`}
+        src={`/image/image-exp/${data.id}.webp`}
         alt={data.company}
       />
       <div className="px-0 md:px-10">
