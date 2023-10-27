@@ -19,7 +19,7 @@ export default function ExperienceCard({ data }: ExperienceCard) {
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className=" w-20 h-20 sm:w-28 sm:h-28 rounded-md xl:w-[200px] xl:h-[200px]  object-center"
+        className=" w-20 sm:w-28  rounded-md xl:w-[200px]"
         src={`/image/image-exp/${data.id}.webp`}
         alt={data.company}
       />

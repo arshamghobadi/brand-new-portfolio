@@ -39,7 +39,7 @@ const Projects: React.FC<ProjectsType> = ({ projects }) => {
               whileInView={{ opacity: 1, y: 0 }}
               alt={project.title}
               src={`/image/projects/${project.id}.webp`}
-              className=" w-36 h-36 sm:w-2/6 sm:h-1/5 md:w-3/6 md:h-3/6"
+              className=" max-w-lg w-36 sm:w-2/6  md:w-3/6 "
             />
             <div className="space-y-6 px-0 md:px-10 max-w-6xl">
               <h4 className="text-2xl  text-center">{project.title}</h4>
