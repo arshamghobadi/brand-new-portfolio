@@ -20,7 +20,7 @@ export default function About() {
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: true }}
           src="/about.webp"
-          className="  bg-black mt-14 md:mb-0 md:mt-14 
+          className=" w-full max-w-4xl h-full bg-black mt-14 md:mb-0 md:mt-14 
           object-cover 
         rounded-lg   "
         />
