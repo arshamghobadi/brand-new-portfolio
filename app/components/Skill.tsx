@@ -9,7 +9,6 @@ const Skill: React.FC<SkillDataType> = ({ data }) => {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.img
-        rel="preload"
         alt={data.name}
         initial={{ x: true ? -180 : 180, opacity: 0 }}
         transition={{ duration: 1 }}

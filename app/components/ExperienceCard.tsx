@@ -15,7 +15,6 @@ export default function ExperienceCard({ data }: ExperienceCard) {
     opacity-40 transition-opacity duration-200 "
     >
       <motion.img
-        rel="preload"
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
