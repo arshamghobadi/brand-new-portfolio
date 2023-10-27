@@ -50,6 +50,7 @@ const Header = () => {
           network="email"
           fgColor="gray"
           bgColor="transparent"
+          url="https://arsham-ghobadi-portfolio.vercel.app/#contact"
         />
 
         <Link href="#contact">
