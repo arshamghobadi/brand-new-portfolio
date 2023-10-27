@@ -26,7 +26,7 @@ export default function Hero() {
         height={281}
       />
       <div className="z-20">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[5px] sm:tracking-[15px]">
+        <h2 className="text-sm uppercase text-gray-400 pb-2 tracking-[5px] sm:tracking-[15px]">
           Front-End Developer
         </h2>
         <h1 className=" text-lg sm:text-2xl lg:text-4xl font-semibold px-10">
